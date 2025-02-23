@@ -13,6 +13,7 @@ LINUX_URL=${LINUX_URL:-"https://global.synologydownload.com/download/ToolChain/S
 TOOLCHAIN_URL=${TOOLCHAIN_URL:-"https://global.synologydownload.com/download/ToolChain/toolchain/7.2-72746/Marvell%20Armada%2037xx%20Linux%204.4.302/armada37xx-gcc1220_glibc236_armv8-GPL.txz"}
 MODEL=${MODEL:-"armada37xx"}
 ENABLE_RTL8761B_PATCH=${ENABLE_RTL8761B_PATCH:-"false"}
+ARCH=${ARCH:-"arm64"}
 
 # 下载依赖
 apt-get update
