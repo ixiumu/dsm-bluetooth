@@ -25,7 +25,7 @@ jobs:
           sudo tar -czvf dsm7.2-apollolake-bluetooth-rtl8761b.tar.gz -C bluetooth-build modules/ firmware/ bluetooth-modules.sh install.sh uninstall.sh
 
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
