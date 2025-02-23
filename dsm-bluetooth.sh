@@ -9,9 +9,9 @@ set -e
 
 # 环境变量
 # https://archive.synology.cn/download/ToolChain
-LINUX_URL=${LINUX_URL:-"https://global.synologydownload.com/download/ToolChain/Synology%20NAS%20GPL%20Source/7.2-64570/apollolake/linux-4.4.x.txz"}
-TOOLCHAIN_URL=${TOOLCHAIN_URL:-"https://global.synologydownload.com/download/ToolChain/toolchain/7.2-72746/Intel%20x86%20Linux%204.4.180%20%28Apollolake%29/apollolake-gcc1220_glibc236_x86_64-GPL.txz"}
-MODEL=${MODEL:-"apollolake"}
+LINUX_URL=${LINUX_URL:-"https://global.synologydownload.com/download/ToolChain/Synology%20NAS%20GPL%20Source/7.2-64570/armada37xx/linux-4.4.x.txz"}
+TOOLCHAIN_URL=${TOOLCHAIN_URL:-"https://global.synologydownload.com/download/ToolChain/toolchain/7.2-72746/Marvell%20Armada%2037xx%20Linux%204.4.302/armada37xx-gcc1220_glibc236_armv8-GPL.txz"}
+MODEL=${MODEL:-"armada37xx"}
 ENABLE_RTL8761B_PATCH=${ENABLE_RTL8761B_PATCH:-"false"}
 
 # 下载依赖
